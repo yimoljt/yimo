@@ -18,9 +18,8 @@ public class App3 {
 			System.out.println("闰年");
 		}else if(year%400==0 && year%3200!=0){
 			System.out.println("闰年");
-		}else if(year%3200==0 && year%172800!=0){
-			System.out.println("闰年");
-		}else{
+		}
+		else{
 			System.out.println("平年");
 		}
 		sc.close();
